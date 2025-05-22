@@ -1,0 +1,44 @@
+﻿@model List<Skill>
+<section id="skills" class="skills section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Yeteneklerim</h2>
+        <p>Sahip olduğum teknik ve yaratıcı becerilerle projelere değer katıyorum. Her yetenek, sürekli öğrenme ve pratikle geliştirdiğim profesyonel bir birikimi yansıtır. Aşağıda, uzmanlık alanlarımın bazılarını ve bu alanlardaki yeterlilik seviyemi bulabilirsiniz.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+            <div class="col-lg-6">
+                @foreach (var skill in Model.Take(5))
+                {
+                    <div class="progress">
+                        <span class="skill"><span>@skill.SkillName</span> <i class="val">@skill.SkillValue%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="@skill.SkillValue" aria-valuemin="0" aria-valuemax="100"
+                                 style="width: @skill.SkillValue%"></div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="col-lg-6">
+                @foreach (var skill in Model.Skip(5).Take(5))
+                {
+                    <div class="progress">
+                        <span class="skill"><span>@skill.SkillName</span> <i class="val">@skill.SkillValue%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="@skill.SkillValue" aria-valuemin="0" aria-valuemax="100"
+                                 style="width: @skill.SkillValue%"></div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+
+    </div>
+
+</section><!-- /Skills Section -->

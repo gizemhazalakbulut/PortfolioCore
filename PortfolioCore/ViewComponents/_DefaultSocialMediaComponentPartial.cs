@@ -3,13 +3,14 @@ using PortfolioCore.Context;
 
 namespace PortfolioCore.ViewComponents
 {
-    public class _DefaultFeatureComponentPartial : ViewComponent
+    public class _DefaultSocialMediaComponentPartial : ViewComponent
     {
         PortfolioContext context = new PortfolioContext();
         public IViewComponentResult Invoke()
         {
-            var values= context.Features.ToList();
+            var values = context.SocialMedias.ToList();
             return View(values);
         }
     }
+    
 }

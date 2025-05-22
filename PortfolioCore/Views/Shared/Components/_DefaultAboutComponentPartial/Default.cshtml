@@ -1,0 +1,47 @@
+﻿@model About
+<section id="about" class="about section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Hakkımda</h2>
+        <p>Kendimi sürekli geliştirmeye açık, detaylara önem veren ve teknolojiyi yakından takip eden bir yazılım geliştirici olarak tanımlıyorum. Amacım; kullanıcı odaklı, güvenli ve sürdürülebilir projelere katkı sağlamak.</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+            <div class="col-lg-4">
+                <img src="@Model.ImageUrl" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-8 content">
+                <h2>@Model.Title</h2>
+                <p class="fst-italic py-3">
+                @Model.Description
+                </p>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Doğum Tarihi:</strong> <span>@Model.Birthday.ToString("dd MMMM yyyy")</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>@Model.Website</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Telefon:</strong> <span>@Model.Phone</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Şehir:</strong> <span>@Model.City</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Yaş:</strong> <span>@Model.Age</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Lisans:</strong> <span>@Model.Degree</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>@Model.Email</span></li>
+                            <li><i class="bi bi-chevron-right"></i> <strong>Serbest Çalışma:</strong> <span>@(Model.Freelance ? "Uygun" : "Uygun Değil")</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="py-3">
+                    @Model.FooterText
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section><!-- /About Section -->

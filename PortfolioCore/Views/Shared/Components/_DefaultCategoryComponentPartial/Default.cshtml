@@ -6,7 +6,7 @@
     @foreach(var item in Model)
     {
 
-    <li data-filter=".filter-app">@item.CategoryName</li> 
-     
+        <li data-filter=".cat-@item.CategoryId">@item.CategoryName</li>
+
     }
 </ul>
