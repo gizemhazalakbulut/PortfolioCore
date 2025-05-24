@@ -38,6 +38,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 ![Deneyim Ekleme Görseli](PortfolioCore/readme-assets/deneyimekleme.png)
 ![Deneyim Güncelleme Görseli](PortfolioCore/readme-assets/deneyimguncelleme.png)
 
+
 ### 🎓 Eğitimler
 
 * Eğitim bilgileri üzerinde tüm CRUD işlemleri uygulanabilir.
@@ -45,6 +46,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Yeni eğitim ekleme ve var olanı düzenleme işlemleri desteklenir.
 
 ![Eğitim Görseli](PortfolioCore/readme-assets/egitim.png)
+
 
 ### 🧍‍♀️ Hakkımda
 
@@ -54,6 +56,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Hakkımda Görseli](PortfolioCore/readme-assets/hakkimda.png)
 
+
 ### 📬 İletişim
 
 * Site üzerindeki iletişim bilgileri yönetilir.
@@ -61,6 +64,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Kullanıcıdan gelen mesajlar burada görüntülenebilir.
 
 ![İletişim Görseli](PortfolioCore/readme-assets/iletisim.png)
+
 
 ### 🛎️ Hizmetler
 
@@ -70,6 +74,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Hizmetlerim Görseli](PortfolioCore/readme-assets/hizmetlerim.png)
 
+
 ### 📑 Referanslar
 
 * Alınan referanslar burada yönetilir.
@@ -77,6 +82,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * CRUD işlemleri ile her referans güncellenebilir.
 
 ![Referans Görseli](PortfolioCore/readme-assets/referans.png)
+
 
 ### 📁 Projeler
 
@@ -86,6 +92,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Projeler Görseli](PortfolioCore/readme-assets/proje.png)
 
+
 ### 🎯 Yetenekler
 
 * Yetenek bilgileri üzerinde tüm CRUD işlemleri uygulanabilir.
@@ -93,6 +100,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Yeni yetenek ekleme ve var olanı düzenleme işlemleri desteklenir.
 
 ![Yetenekler Görseli](PortfolioCore/readme-assets/yetenek.png)
+
 
 ### 💌 Gelen Mesajlar
 
@@ -104,6 +112,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Mesajlar Görseli](PortfolioCore/readme-assets/mesajlar.png)
 
+
 ### 🌐 Sosyal Medya
 
 * Sosyal medya bilgileri üzerinde tüm CRUD işlemleri uygulanabilir.
@@ -111,6 +120,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Yeni sosyal medya ekleme ve var olanı düzenleme işlemleri desteklenir.
 
 ![Medya Görseli](PortfolioCore/readme-assets/sosyalmedya.png)
+
 
 ### 📊 İstatistikler
 
@@ -126,10 +136,12 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Anasayfa Görseli](PortfolioCore/readme-assets/anasayfa.png)
 
+
 ### 👩‍💼 Hakkımda
 
 * Tüm bilgiler dinamik olarak çekilir ve görsel tasarımla desteklenir
 ![Hakkımda Görseli](PortfolioCore/readme-assets/hakkımdaui.png)
+
 
 ### 📈 İstatistikler & Yetenekler
 
@@ -139,11 +151,13 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 ![Yetenekler Görseli](PortfolioCore/readme-assets/yeteneklerimui.png)
 
+
 ### 🎒 Eğitim Hayatım & Deneyimler
 
 * Tüm Eğitim hayatım ve deneyimlerim bölümü dinamik olarak veri tabanı üzerinden çekilmiştir
 
 ![Eğitim Görseli](PortfolioCore/readme-assets/deneyimlerimui.png)
+
 
 ### 🗂️ Projelerim
 
@@ -154,15 +168,18 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 ![Proje3 Görseli](PortfolioCore/readme-assets/projelerimreact.png)
 ![Proje4 Görseli](PortfolioCore/readme-assets/projelerimjs.png)
 
+
 ### 🧰 Hizmetlerim
 
 * Hizmetlerim bölümü dinamik olarak veri tabanı üzerinden çekilmiştir
 ![Hizmetlerim Görseli](PortfolioCore/readme-assets/hizmetlerimui.png)
 
+
 ### 📣 Referanslarım
 
 * Referanslarım bölümü dinamik olarak veri tabanı üzerinden çekilmiştir
 ![Referanslarım Görseli](PortfolioCore/readme-assets/referanslarım.png)
+
 
 ### ✉️ İletişim Alanı
 
