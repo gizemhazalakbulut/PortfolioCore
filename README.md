@@ -34,10 +34,10 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Mevcut deneyim bilgilerini gör, düzenle, sil ya da yenisini ekle.
 * Kayıtlar ID'ye göre güncellenir ve kolaylıkla yönetilebilir.
 
-![Deneyim Görseli](readme-assets/images/images/deneyim.png)
+![Deneyim Görseli](readme-assets/deneyim.png)
 
 * ![Deneyim Ekleme Görseli](readme-assets/deneyimekleme.png)
-* ![Deneyim Güncelleme Görseli](readme-assets/deneyimgüncelleme.png)
+* ![Deneyim Güncelleme Görseli](readme-assets/deneyimguncelleme.png)
 
 ### 🎓 Eğitimler
 
@@ -53,7 +53,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 * Güncelleme ve veri ekleme özellikleri içerir.
 
-* ![Hakkımda Görseli](readme-assets/hakkımda.png)
+* ![Hakkımda Görseli](readme-assets/hakkimda.png)
 
 ### 📬 İletişim
 
@@ -150,7 +150,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 * Projelerim, kategori tablosu ile ilişkilendirilerek her bir kategori altında ilgili projelerin listeleneceği şekilde dinamik bir yapı oluşturulmuştur
 
-* ![Proje1 Görseli](readme-assets/projelerimtümü.png)
+* ![Proje1 Görseli](readme-assets/projelerimtumu.png)
 
 * ![Proje2 Görseli](readme-assets/projelerim.net.png)
 
@@ -178,7 +178,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 
 * ![iletişim Görseli](readme-assets/iletişimui.png)
 
-* ![mesaj Görseli](readme-assets/mesajbaşarılı.png)
+* ![mesaj Görseli](readme-assets/mesajbasarılı.png)
 
 ---
 
