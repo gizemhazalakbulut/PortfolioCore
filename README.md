@@ -34,7 +34,7 @@ Site içeriklerinin yönetilebildiği arka plan panelidir. Her bölümde CRUD i�
 * Mevcut deneyim bilgilerini gör, düzenle, sil ya da yenisini ekle.
 * Kayıtlar ID'ye göre güncellenir ve kolaylıkla yönetilebilir.
 
-* ![Deneyim Görseli](readme-assets/images/deneyim.png)
+![Deneyim Görseli](readme-assets/images/deneyim.png)
 
 * ![Deneyim Ekleme Görseli](images/deneyimekle.png)
 
