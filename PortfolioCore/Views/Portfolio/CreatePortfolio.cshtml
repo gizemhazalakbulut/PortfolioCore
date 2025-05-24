@@ -8,16 +8,16 @@
 
 <form method="post">
 <label>Proje Başlığı</label>
-<input  type="text" class="form-control" asp-for="Title" />
+    <input type="text" class="form-control" asp-for="Title" style="border:1px solid black;" />
 <br />
 <label>Proje Açıklaması</label>
-<input type="text" class="form-control" asp-for="Description" />
+    <input type="text" class="form-control" asp-for="Description" style="border:1px solid black;" />
 <br />
 <label>Görsel URL</label>
-<input type="text" class="form-control" asp-for="ImageUrl" />
+    <input type="text" class="form-control" asp-for="ImageUrl" style="border:1px solid black;" />
 <br />
 <label>Proje Kategorisi</label>
-<select asp-for="CategoryId" asp-items="ViewBag.v" class="form-control">
+    <select asp-for="CategoryId" asp-items="ViewBag.v" class="form-control" style="border:1px solid black;">
     <option value="">--Seçiniz--</option>
 </select>
 <br />

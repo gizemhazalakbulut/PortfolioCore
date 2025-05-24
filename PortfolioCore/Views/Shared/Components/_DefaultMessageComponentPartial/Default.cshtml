@@ -1,0 +1,43 @@
+﻿@model Message
+<div class="col-lg-8">
+    <form asp-action="CreateMessage" asp-controller="Message" method="post" class="manual-post-form" data-aos="fade-up" data-aos-delay="200">
+        <div class="row gy-4">
+
+            <div class="col-md-6">
+                <input type="text" asp-for=NameSurname class="form-control" placeholder="Ad Soyad" required="">
+            </div>
+
+            <div class="col-md-6 ">
+                <input type="email" class="form-control" asp-for="Email" placeholder="Email" required="">
+            </div>
+
+            <div class="col-md-12">
+                <input type="text" class="form-control" asp-for="Subject" placeholder="Konu" required="">
+            </div>
+
+            <div class="col-md-12">
+                <textarea class="form-control" asp-for="MessageDetail" rows="6" placeholder="Mesaj" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+       
+
+                <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+            </div>
+
+        </div>
+    </form>
+
+</div><!-- End Contact Form -->
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+    @if (TempData["MessageSent"] != null && (bool)TempData["MessageSent"])
+    {
+        <text>
+                swal("Tebrikler!", "Mesajınız başarıyla gönderildi!", "success");
+        </text>
+    }
+</script>
+

@@ -2,6 +2,7 @@
 @{
     ViewData["Title"] = "ExperienceList";
     Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
 }
 
 <h2>Deneyim Listesi</h2>
@@ -16,10 +17,11 @@
         <th>Sil</th>
         <th>Güncelle</th>
     </tr>
-   
-        @foreach (var item in Model) { 
+
+        @foreach (var item in Model) {
+        count++;
         <tr>
-            <td>@item.ExperienceId</td>
+            <td>@count</td>
             <td>@item.Title</td>
             <td>@item.SubTitle</td>
             <td>@item.Description</td>

@@ -39,16 +39,22 @@ namespace PortfolioCore.Controllers
             return RedirectToAction("PortfolioList");
         }
 
+
         [HttpGet]
         public IActionResult UpdatePortfolio(int id)
         {
-            var values = context.Portfolios.Find(id);
-            var categoryvalues = new SelectList(context.Categories.ToList(), "CategoryId", "CategoryName");
-            ViewBag.v = categoryvalues;
+            var values = context.Portfolios.Include(x => x.Category).FirstOrDefault(p => p.PortfolioId == id);
+            var values2 = new SelectList(context.Categories.ToList(), "CategoryId", "CategoryName");
+            ViewBag.v = values2;
             return View(values);
         }
-
-
+        [HttpPost]
+        public IActionResult UpdatePortfolio(Portfolio portfolio)
+        {
+            context.Portfolios.Update(portfolio);
+            context.SaveChanges();
+            return RedirectToAction("PortfolioList");
+        }
     }
     
 }
